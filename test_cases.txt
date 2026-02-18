@@ -1,0 +1,88 @@
+========================================
+STUDENT GRADE CALCULATOR - TEST CASES
+========================================
+
+TEST CASE 1: Valid Input (A Grade)
+----------------------------------------
+Input: Name = "Atharv"
+Marks = 95
+Expected Output:
+- Grade: A
+- Message: Excellent! Outstanding performance!
+Actual Output: ✓ PASS
+
+TEST CASE 2: Valid Input (B Grade)
+----------------------------------------
+Input: Name = "Priya"
+Marks = 85
+Expected Output:
+- Grade: B
+- Message: Very Good! Keep it up!
+Actual Output: ✓ PASS
+
+TEST CASE 3: Valid Input (C Grade)
+----------------------------------------
+Input: Name = "Raj"
+Marks = 75
+Expected Output:
+- Grade: C
+- Message: Good work! Keep practicing!
+Actual Output: ✓ PASS
+
+TEST CASE 4: Valid Input (D Grade)
+----------------------------------------
+Input: Name = "Neha"
+Marks = 65
+Expected Output:
+- Grade: D
+- Message: Satisfactory! Can do better!
+Actual Output: ✓ PASS
+
+TEST CASE 5: Valid Input (F Grade)
+----------------------------------------
+Input: Name = "John"
+Marks = 45
+Expected Output:
+- Grade: F
+- Message: Need improvement! Work harder!
+Actual Output: ✓ PASS
+
+TEST CASE 6: Boundary Values
+----------------------------------------
+Input: Name = "Test1"
+Marks = 0
+Expected Output: Grade F
+Actual Output: ✓ PASS
+
+Input: Name = "Test2"
+Marks = 100
+Expected Output: Grade A
+Actual Output: ✓ PASS
+
+TEST CASE 7: Invalid Name Input
+----------------------------------------
+Input: Name = "" (empty)
+Expected Output: "Invalid Name! Please enter a valid name."
+Actual Output: ✓ PASS
+
+Input: Name = "123" (numbers only)
+Expected Output: "Invalid Name! Please enter a valid name."
+Actual Output: ✓ PASS
+
+TEST CASE 8: Invalid Marks Input
+----------------------------------------
+Input: Marks = -10
+Expected Output: "Marks must be between 0 and 100!"
+Actual Output: ✓ PASS
+
+Input: Marks = 150
+Expected Output: "Marks must be between 0 and 100!"
+Actual Output: ✓ PASS
+
+Input: Marks = "abc"
+Expected Output: "Invalid input! Please enter a number."
+Actual Output: ✓ PASS
+
+========================================
+ALL TEST CASES PASSED ✓
+========================================
